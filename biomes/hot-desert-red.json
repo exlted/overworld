@@ -31,7 +31,7 @@
     ],
     "decorators": [
         {
-            "chance": 0.005,
+            "chance": 0.05,
             "palette": [
                 {
                     "block": "dead_bush"
