@@ -44,17 +44,10 @@
             "zoom": 5
         }
     },
-    "jigsawStructures": [
-        {
-            "rarity": 1000,
-            "structure": "pillager"
-        }
-    ],
     "landBiomes": [
         "hot-savanna",
         "hot-dry-forest",
         "hot-savanna",
-		"hot-savanna-plateau",
 		"hot-acacia-denmyre"
     ],
     "biomeImplosionRatio": 0.25,

@@ -6,7 +6,7 @@
         {
             "generator": "smooth-land",
             "max": 18,
-            "min": -8
+            "min": -10
         }
     ],
     "entityInitialSpawns": [
@@ -23,6 +23,27 @@
             "rarity": 6
         }
     ],
+    "slab": {
+        "style": {
+            "style": "STATIC"
+        },
+        "palette": [
+            {
+                "data": {
+                    "waterlogged": false,
+                    "type": "bottom"
+                },
+                "block": "sandstone_slab"
+            },
+            {
+                "data": {
+                    "waterlogged": false,
+                    "type": "bottom"
+                },
+                "block": "smooth_sandstone_slab"
+            }
+        ]
+    },
     "objects": [
         {
             "name": "standard-surface-portals",

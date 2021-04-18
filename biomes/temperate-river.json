@@ -168,7 +168,7 @@
     "generators": [
         {
             "generator": "river",
-            "max": -7,
+            "max": -3,
             "min": -7
         }
     ],

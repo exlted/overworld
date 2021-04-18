@@ -1,15 +1,5 @@
 {
     "vanillaDerivative": "FOREST",
-    "jigsawStructures": [
-        {
-            "rarity": 1000,
-            "structure": "pillager"
-        },
-        {
-            "rarity": 350,
-            "structure": "village-temperate"
-        }
-    ],
 	"decorators": [
 	{
 		"chance": 0.8,
@@ -155,7 +145,7 @@
     "objects": [
         {
             "name": "standard-surface-portals",
-            "chance": 0.00505,
+            "chance": 0.00005,
             "place": [
                 "ruined_portal/giant_portal_1",
                 "ruined_portal/giant_portal_2",

@@ -4,16 +4,6 @@
         "SNOWY_TAIGA",
         "SNOWY_MOUNTAINS"
     ],
-    "jigsawStructures": [
-        {
-            "rarity": 1000,
-            "structure": "pillager"
-        },
-        {
-            "rarity": 650,
-            "structure": "village-tundra"
-        }
-    ],
     "entityInitialSpawns": [
         {
             "entity": "chicken",
@@ -263,9 +253,9 @@
     ],
     "generators": [
         {
-            "min": 96,
-            "max": 139,
-            "generator": "mountain"
+            "generator": "smooth-land",
+            "max": 14,
+            "min": 8
         }
     ],
     "childShrinkFactor": 8,

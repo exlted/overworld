@@ -4,11 +4,8 @@
     ],
     "landBiomes": [
         "tundra-taiga",
-        "tundra-redwoods-forest",
         "tundra-taiga",
-		"tundra-sequia-redwoods",
         "tundra-spruce-denmyre",
-		"tundra-lake",
         "tundra-mountains",
         "tundra-mountains-huge"
     ],
@@ -37,7 +34,24 @@
         "tundra-cavern",
         "tundra-spiked-cavern"
     ],
-    "landBiomeZoom": 1.25,
+    "structures": [
+        {
+            "tileset": "murky-stronghold",
+            "height": 26,
+            "rarity": 7,
+            "shuffle": 22,
+            "ratio": 0.9,
+            "zoom": 0.5
+        },
+        {
+            "tileset": "village-stone",
+            "rarity": 25,
+            "shuffle": 22,
+            "ratio": 0.9,
+            "zoom": 0.5
+        }
+    ],
+    "landBiomeZoom": 1.35,
     "riverStyle": {
         "style": "VASCULAR",
         "zoom": 4.77,

@@ -213,9 +213,9 @@
     ],
     "generators": [
         {
-            "min": -31,
+            "generator": "river",
             "max": -7,
-            "generator": "soft-river"
+            "min": -7
         }
     ],
     "loot": {

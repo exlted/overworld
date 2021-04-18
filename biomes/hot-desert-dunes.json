@@ -5,10 +5,31 @@
     "generators": [
         {
             "generator": "dunes",
-            "max": 30,
+            "max": 20,
             "min": 10 
         }
     ],
+    "slab": {
+        "style": {
+            "style": "STATIC"
+        },
+        "palette": [
+            {
+                "data": {
+                    "waterlogged": false,
+                    "type": "bottom"
+                },
+                "block": "sandstone_slab"
+            },
+            {
+                "data": {
+                    "waterlogged": false,
+                    "type": "bottom"
+                },
+                "block": "smooth_sandstone_slab"
+            }
+        ]
+    },
     "jigsawStructures": [
         {
             "rarity": 1650,
@@ -107,26 +128,6 @@
                 "clutter/desert-post2",
                 "clutter/desert-post3"
             ]
-        },
-        {
-            "chance": 0.000000000000000000000000000000000000000000000000000000000000000000001,
-            "rotation": {
-                "yAxis": {
-                    "min": 0,
-                    "max": 0,
-                    "interval": 90,
-                    "enabled": true
-                },
-                "enabled": true
-            },
-            "place": [
-                "pryamid/pyramid-extreme"
-            ],
-            "translate": {
-                "x": 0,
-                "y": -14,
-                "z": 0
-            }
         }
     ],
     "layers": [

@@ -252,7 +252,6 @@
                 "stump/stump5",
                 "stump/stump6"
             ],
-            "mode": "VACUUM",
             "translate": {
                 "x": 0,
                 "y": 0,
@@ -348,13 +347,13 @@
     ],
     "generators": [
         {
-            "min": 11,
-            "max": 32,
-            "generator": "mountain"
+            "generator": "smooth-land",
+            "max": 14,
+            "min": 8
         },
         {
             "min": 12,
-            "max": 62,
+            "max": 17,
             "generator": "plain-cliffs"
         }
     ],

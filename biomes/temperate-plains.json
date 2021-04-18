@@ -5,16 +5,6 @@
     "children": [
         "temperate-plains-hills"
     ],
-    "jigsawStructures": [
-        {
-            "rarity": 1000,
-            "structure": "pillager"
-        },
-        {
-            "rarity": 350,
-            "structure": "village-temperate"
-        }
-    ],
     "childStyle": {
         "style": "SIMPLEX",
         "zoom": 0.5,
@@ -226,41 +216,6 @@
             "carvingSupport": "SURFACE_ONLY"
         },
         {
-            "chance": 0.002,
-            "edit": [
-                {
-                    "find": [
-                        {
-                            "block": "glass"
-                        }
-                    ],
-                    "replace": {
-                        "palette": [
-                            {
-                                "block": "void_air"
-                            }
-                        ]
-                    }
-                }],
-            "rotation": {
-                "yAxis": {
-                    "min": 0,
-                    "max": 0,
-                    "interval": 90,
-                    "enabled": true
-                },
-                "enabled": true
-            },
-            "place": [
-                "caves/cave2"
-            ],
-            "translate": {
-                "x": 0,
-                "y": -57,
-                "z": 0
-            }
-        },
-        {
             "chance": 0.01,
             "rotation": {
                 "yAxis": {
@@ -366,7 +321,7 @@
         },
         {
             "mode": "PAINT",
-            "chance": 0.02,
+            "chance": 0.002,
             "rotation": {
                 "yAxis": {
                     "min": 0,
@@ -387,57 +342,6 @@
             "translate": {
                 "x": 0,
                 "y": -4,
-                "z": 0
-            }
-        },
-        {
-            "chance": 0.000000000000000000001,
-			"edit": [
-                {
-                    "find": [
-                        {
-                            "block": "orange_terracotta"
-                        }
-                    ],
-                    "replace": {
-                        "palette": [
-                            {
-                                "block": "pink_concrete"
-                            }
-                        ]
-                    }
-                },
-				{
-                    "find": [
-                        {
-                            "block": "red_terracotta"
-                        }
-                    ],
-                    "replace": {
-                        "palette": [
-                            {
-                                "block": "pink_wool"
-                            }
-                        ]
-                    }
-                }],
-            "rotation": {
-                "yAxis": {
-                    "min": 0,
-                    "max": 0,
-                    "interval": 90,
-                    "enabled": true
-                },
-                "enabled": true
-            },
-            "place": [
-                "sakura-massive/sakura1",
-                "sakura-massive/sakura2",
-                "sakura-massive/sakura3"
-            ],
-            "translate": {
-                "x": 0,
-                "y": -1,
                 "z": 0
             }
         },

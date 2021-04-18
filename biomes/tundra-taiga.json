@@ -1,15 +1,5 @@
 {
     "vanillaDerivative": "TAIGA",
-    "jigsawStructures": [
-        {
-            "rarity": 1000,
-            "structure": "pillager"
-        },
-        {
-            "rarity": 350,
-            "structure": "village-tundra"
-        }
-    ],
     "decorators": [
         {
             "chance": 0.003,
@@ -397,7 +387,6 @@
                 "stump/stump5",
                 "stump/stump6"
             ],
-            "mode": "VACUUM",
             "translate": {
                 "x": 0,
                 "y": -1,

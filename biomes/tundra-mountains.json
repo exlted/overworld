@@ -256,9 +256,9 @@
     ],
     "generators": [
         {
-            "min": 66,
-            "max": 89,
-            "generator": "mountain"
+            "generator": "smooth-land",
+            "max": 14,
+            "min": 8
         }
     ],
     "childShrinkFactor": 8,

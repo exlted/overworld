@@ -12,11 +12,13 @@
         }
     ],
     "landBiomes": [
-		"temperate-plateau",
 		"temperate-flower-forest",
+        "temperate-oak-forest",
+        "temperate-plains",
         "temperate-plains",
 		"temperate-longtree-forest",
-		"temperate-oak",
+        "temperate-plains",
+        "temperate-plains",
         "temperate-oak-forest",
         "temperate-plains",
 		"temperate-birch-forest"

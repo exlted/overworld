@@ -13,16 +13,6 @@
             "particleCount": 3
         }
     ],
-    "jigsawStructures": [
-        {
-            "rarity": 1000,
-            "structure": "pillager"
-        },
-        {
-            "rarity": 800,
-            "structure": "village-temperate"
-        }
-    ],
 	"derivative": "FOREST",
 	"layers": [{
 			"style": {
@@ -67,6 +57,13 @@
 			]
 		}
 	],
+	"structures": [{
+		"tileset": "ruins",
+		"rarity": 2,
+		"shuffle": 22,
+		"ratio": 0.9,
+		"zoom": 0.9
+	}],
 	"decorators": [
         {
             "chance": 0.0015,
@@ -502,40 +499,6 @@
             }
         },
 		{
-			"chance": 0.00001,
-			"density": 1,
-            "edit": [
-                {
-                    "find": [
-                        {"block": "barrier"}
-                    ],
-                    "replace": {
-                        "palette": [
-                            {
-                                "block": "void_air"
-                            }
-                        ]
-                    }
-                }],
-			"rotation": {
-				"yAxis": {
-					"min": 0,
-					"max": 0,
-					"interval": 90,
-					"enabled": true
-				},
-				"enabled": true
-			},
-			"place": [
-				"sakura/corazoncaido"
-			],
-			"translate": {
-				"x": 0,
-				"y": -4,
-				"z": 0
-			}
-		},
-		{
 			"chance": 0.4,
             "edit": [
                 {
@@ -585,31 +548,6 @@
 				"z": 0
 			}
 		},
-		{
-			"chance": 0.5,
-			"rotation": {
-				"yAxis": {
-					"min": 0,
-					"max": 0,
-					"interval": 0,
-					"enabled": true
-				},
-				"enabled": true
-			},
-			"mode": "PAINT",
-			"place": [
-				"sakura/arbusto1",
-				"sakura/arbusto2",
-				"sakura/arbusto3",
-				"sakura/arbusto4",
-				"sakura/arbusto5"
-			],
-			"translate": {
-				"x": 0,
-				"y": 1,
-				"z": 0
-			}
-		},
         {
             "chance": 0.002,
             "density": 1,
@@ -631,27 +569,7 @@
                 "y": -3,
                 "z": 0
             }
-        },
-		{
-			"chance": 0.00005,
-			"rotation": {
-				"yAxis": {
-					"min": 0,
-					"max": 0,
-					"interval": 90,
-					"enabled": true
-				},
-				"enabled": true
-			},
-			"place": [
-				"sakura/corazoncristal"
-			],
-			"translate": {
-				"x": 0,
-				"y": 55,
-				"z": 0
-			}
-		}
+        }
 	],
 	"generators": [{
 		"generator": "smooth-land",

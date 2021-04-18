@@ -35,6 +35,12 @@
             "replaceVanillaDrops": true
         }
     ],
+    "jigsawStructures": [
+        {
+            "rarity": 650,
+            "structure": "desert-pyramid"
+        }
+    ],
     "riverStyle": {
         "style": "VASCULAR",
         "zoom": 4.77,
@@ -44,16 +50,6 @@
             "zoom": 5
         }
     },
-    "jigsawStructures": [
-        {
-            "rarity": 2000,
-            "structure": "pillager"
-        },
-        {
-            "rarity": 1050,
-            "structure": "village-hot"
-        }
-    ],
     "landBiomes": [
         "hot-desert",
         "hot-desert-dunes"
@@ -127,7 +123,6 @@
     "landBiomeZoom": 1.25,
     "effects": [
         {
-            "interval": 30000,
             "potionTicksMin": 87,
             "potionEffect": "CONFUSION",
             "chance": 1200,
@@ -148,6 +143,8 @@
     ],
     "shoreHeightMin": 3.2,
     "shoreBiomes": [
+		"hot-beach-grass",
+		"hot-beach-grass",
 		"hot-beach-grass",
         "hot-beach"
     ],
