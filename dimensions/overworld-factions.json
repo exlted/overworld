@@ -651,7 +651,7 @@
     "skylandBiomeStyle": {
         "style": "CELLULAR_IRIS_DOUBLE"
     },
-    "name": "factions",
+    "name": "overworld-factions",
     "regionZoom": 11,
     "dimensionAngleDeg": 19
 }
