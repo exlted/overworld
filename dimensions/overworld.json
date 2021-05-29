@@ -308,6 +308,23 @@
             "varience": 5
         },
         {
+            "minHeight": 2,
+            "maxPerChunk": 1,
+            "maxHeight": 10,
+            "minPerChunk": 0,
+            "minSize": 15,
+            "maxSize": 20,
+            "palette": [
+                {
+                    "block": "diamond_ore"
+                },
+                {
+                    "block": "lava"
+                }
+            ],
+            "varience": 5
+        },
+        {
             "minHeight": 4,
             "maxPerChunk": 5,
             "maxHeight": 40,
@@ -379,6 +396,34 @@
                 }
             ],
             "varience": 9
+        },
+        {
+            "minHeight": 1,
+            "maxPerChunk": 8,
+            "maxHeight": 15,
+            "minPerChunk": 2,
+            "minSize": 10,
+            "maxSize": 20,
+            "palette": [
+                {
+                    "block": "lava"
+                }
+            ],
+            "variance": 5
+        },
+        {
+            "minHeight": 1,
+            "maxPerChunk": 5,
+            "maxHeight": 175,
+            "minPerChunk": 2,
+            "minSize": 10,
+            "maxSize": 20,
+            "palette": [
+                {
+                    "block": "water"
+                }
+            ],
+            "variance": 5
         }
     ],
     "environment": "NORMAL",
