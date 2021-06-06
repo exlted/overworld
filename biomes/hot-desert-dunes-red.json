@@ -1,26 +1,18 @@
 {
-    "name": "Desert Hills",
     "derivative": "DESERT",
+    "name": "Desert dunes",
     "vanillaDerivative": "DESERT",
     "generators": [
         {
-            "generator": "smooth-land",
-            "max": 18,
-            "min": -8
+            "generator": "dunes",
+            "max": 30,
+            "min": 10
         }
     ],
-    "entityInitialSpawns": [
+    "jigsawStructures": [
         {
-            "entity": "cow",
-            "maxSpawns": 1,
-            "minSpawns": 1,
-            "rarity": 6
-        },
-        {
-            "entity": "chicken",
-            "maxSpawns": 1,
-            "minSpawns": 1,
-            "rarity": 6
+            "rarity": 1650,
+            "structure": "desert-pyramid"
         }
     ],
     "objects": [
@@ -117,7 +109,8 @@
             ]
         },
         {
-            "chance": 0.001,
+            "chance": 0.0000001,
+			"mode": "STILT",
             "rotation": {
                 "yAxis": {
                     "min": 0,
@@ -128,48 +121,44 @@
                 "enabled": true
             },
             "place": [
-                "global-clutter/sphinxToomb-1",
-                "global-clutter/BrokSphinxToomb-1"
+                "pryamid/pyramid-extreme",
+                "void/void",
+                "void/void",
+                "void/void"
             ],
-            "clamp": {
-                "maximumHeight": 73
-            },
             "translate": {
                 "x": 0,
-                "y": -3,
+                "y": -14,
                 "z": 0
             }
         }
     ],
     "layers": [
         {
-            "minHeight": 3,
-            "maxHeight": 10,
-            "slopeCondition": {
-                "minimumSlope": 4.5,
-                "maximumSlope": 20
-            },
-            "palette": [
-                {
-                    "block": "terracotta"
-                }
-            ]
-        },
-        {
             "minHeight": 5,
-            "maxHeight": 5,
-            "style": {
-                "style": "FRACTAL_WATER"
-            },
-            "zoom": 0.7,
+            "maxHeight": 6,
             "palette": [
                 {
                     "weight": 1,
                     "block": "sand"
-                },
+                }
+            ]
+        },
+        {
+            "minHeight": 3,
+            "maxHeight": 4,
+            "palette": [
                 {
-                    "weight": 1,
-                    "block": "smooth_sandstone"
+                    "block": "red_sandstone"
+                }
+            ]
+        },
+        {
+            "minHeight": 2,
+            "maxHeight": 5,
+            "palette": [
+                {
+                    "block": "red_terracotta"
                 }
             ]
         }
@@ -177,7 +166,7 @@
     "decorators": [
         {
             "verticalZoom": 5,
-            "chance": 0.005,
+            "chance": 0.004,
             "variance": {
                 "style": "STATIC"
             },
