@@ -13,7 +13,6 @@
     ],
     "landBiomes": [
 		"temperate-plateau",
-		"temperate-wilds",
 		"temperate-flower-forest",
 		"temperate-longtree-forest",
 		"temperate-oak",
@@ -137,7 +136,7 @@
         "temperate-cracked-cavern",
         "temperate-lit-cavern"
     ],
-    "landBiomeZoom": 1.25,
+    "landBiomeZoom": 2.8,
     "riverStyle": {
         "style": "GLOB_IRIS_DOUBLE",
         "zoom": 4.925,
